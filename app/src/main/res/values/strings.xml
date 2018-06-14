@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Geometric Loader</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop_immediately">Stop immediately</string>
+    <string name="btn_stop_smoothly">Stop smoothly</string>
+</resources>

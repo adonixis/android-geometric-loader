@@ -1,0 +1,110 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="285dp"
+    android:height="285dp"
+    android:viewportWidth="285"
+    android:viewportHeight="285">
+  <path
+      android:pathData="M75,75h135v135h-135z"
+      android:fillColor="#ffffff"
+      />
+
+  <group
+      android:name="blue_square"
+      android:pivotX="142.5"
+      android:pivotY="142.5"
+      >
+    <path
+        android:pathData="M92.5,92.5h100v100h-100z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <path
+      android:name="blue_line_top"
+      android:pathData="M75,57.5h135v17.5h-135z"
+      android:fillColor="#4cc4ff"
+      />
+
+  <group
+      android:name="blue_line_top_left">
+    <path
+        android:pathData="M75,57.5h68v17.5h-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <group
+      android:name="blue_line_top_right">
+    <path
+        android:pathData="M142,57.5h68v17.5h-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <path
+      android:name="blue_line_right"
+      android:pathData="M227.5,75l-0,135l-17.5,0l-0,-135zz"
+      android:fillColor="#4cc4ff"
+      />
+
+  <group
+      android:name="blue_line_right_top">
+    <path
+        android:pathData="M227.5,75l-0,68l-17.5,0l-0,-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <group
+      android:name="blue_line_right_bottom">
+    <path
+        android:pathData="M227.5,142l-0,68l-17.5,0l-0,-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <path
+      android:name="blue_line_bottom"
+      android:pathData="M75,210h135v17.5h-135z"
+      android:fillColor="#4cc4ff"
+      />
+
+  <group
+      android:name="blue_line_bottom_right">
+    <path
+        android:pathData="M142,210h68v17.5h-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <group
+      android:name="blue_line_bottom_left">
+    <path
+        android:pathData="M75,210h68v17.5h-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <path
+      android:name="blue_line_left"
+      android:pathData="M75,75l-0,135l-17.5,0l-0,-135z"
+      android:fillColor="#4cc4ff"
+      />
+
+  <group
+      android:name="blue_line_left_bottom">
+    <path
+        android:pathData="M75,142l-0,68l-17.5,0l-0,-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+  <group
+      android:name="blue_line_left_top">
+    <path
+        android:pathData="M75,75l-0,68l-17.5,0l-0,-68z"
+        android:fillColor="#4cc4ff"
+        />
+  </group>
+
+</vector>

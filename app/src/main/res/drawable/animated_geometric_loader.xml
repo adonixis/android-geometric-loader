@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/image_geometric_loader">
+
+    <target android:name="blue_square">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+                    <objectAnimator
+                        android:duration="600"
+                        android:propertyName="scaleX"
+                        android:valueFrom="1"
+                        android:valueTo="0.75"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="600"
+                        android:propertyName="scaleY"
+                        android:valueFrom="1"
+                        android:valueTo="0.75"
+                        android:valueType="floatType"/>
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+                    <objectAnimator
+                        android:duration="240"
+                        android:propertyName="scaleX"
+                        android:valueFrom="0.75"
+                        android:valueTo="1"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="240"
+                        android:propertyName="scaleY"
+                        android:valueFrom="0.75"
+                        android:valueTo="1"
+                        android:valueType="floatType"/>
+                </set>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+
+    <target android:name="blue_line_top">
+        <aapt:attr name="android:animation">
+
+            <objectAnimator
+                android:duration="180"
+                android:propertyName="fillAlpha"
+                android:valueFrom="0.8"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_right">
+        <aapt:attr name="android:animation">
+
+            <objectAnimator
+                android:duration="180"
+                android:propertyName="fillAlpha"
+                android:valueFrom="0.8"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_bottom">
+        <aapt:attr name="android:animation">
+
+            <objectAnimator
+                android:duration="180"
+                android:propertyName="fillAlpha"
+                android:valueFrom="0.8"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_left">
+        <aapt:attr name="android:animation">
+
+            <objectAnimator
+                android:duration="180"
+                android:propertyName="fillAlpha"
+                android:valueFrom="0.8"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+
+        </aapt:attr>
+    </target>
+
+
+    <target android:name="blue_line_top_left">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_top_right">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_right_top">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_right_bottom">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_bottom_right">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_bottom_left">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_left_bottom">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="blue_line_left_top">
+        <aapt:attr name="android:animation">
+
+            <set android:ordering="sequentially"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:shareInterpolator="true">
+
+                <set android:ordering="together"
+                    android:interpolator="@android:anim/linear_interpolator"
+                    android:shareInterpolator="true">
+
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateX"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+                    <objectAnimator
+                        android:duration="300"
+                        android:propertyName="translateY"
+                        android:valueFrom="0"
+                        android:valueTo="-57.5"
+                        android:valueType="floatType"/>
+
+                </set>
+
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateY"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+                <objectAnimator
+                    android:duration="270"
+                    android:propertyName="translateX"
+                    android:valueFrom="-57.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"/>
+
+            </set>
+
+        </aapt:attr>
+    </target>
+
+</animated-vector>
