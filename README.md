@@ -4,7 +4,7 @@
 Implementation of Geometric Loader.  
 Thanks to [Darshan Gajara](https://www.uplabs.com/weirdowizard "Darshan's profile on UpLabs") for his [animation.](https://www.uplabs.com/posts/geometric-loader-freebie "Page of animation on UpLabs")
 
-![Demo gif](https://user-images.githubusercontent.com/1766863/41435127-43c7ceee-7037-11e8-84d3-72d3628c9e51.gif)
+![Demo gif](https://user-images.githubusercontent.com/1766863/41438361-790390bc-7040-11e8-886c-d2fdd185e176.gif)
 
 ### Geometric Loader x10 slower:
 
